@@ -22,12 +22,6 @@
   border-left: none;
 }
 
-.ms_around-search img {
-  height: 100%;
-  display: block;
-  align-self: center;
-}
-
 .ms_searchbar-div {
   flex-grow: 1;
 }
@@ -36,10 +30,6 @@
   .ms_around-search {
     width: 180px;
     height: 80px;
-  }
-
-  .ms_around-search img {
-    width: 160px;
   }
 }
 
