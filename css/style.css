@@ -38,3 +38,11 @@
   flex-grow: 1;
   border: 1px solid black;
 }
+
+/* HEADER MAIN */
+.ms_header-main {
+  width: 100%;
+  /* debug */
+  height: 150px;
+  background-color: lightblue;
+}
