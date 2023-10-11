@@ -1,5 +1,7 @@
 /* UTILITIES */
-
+.ms_height-100 {
+  height: calc(100vh - 80px);
+}
 /* BODY */
 .ms_wrapper {
   width: 100%;
@@ -35,10 +37,11 @@
 
 /* MAIN */
 .ms_aside {
-  background-color: blue;
+  background-color: #051E34;
+  background-image: url(../img/sidebar-bg.png);
+  background-position: center;
   height: calc(100vh - 80px);
   width: 90px;
-  border: 1px solid black;
 }
 
 @media screen and (min-width:992px) {
