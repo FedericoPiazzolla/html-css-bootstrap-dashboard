@@ -9,10 +9,17 @@
 /* HEADER */
 .ms_header {
   width: 100%;
-  /* debug */
   height: 80px;
+  /* debug */
   background-color: gray;
-  border: 1px solid black;
+}
+
+.ms_around-search {
+  width: 80px;
+}
+
+.ms_searchbar-div {
+  flex-grow: 1;
 }
 
 /* MAIN */
