@@ -58,8 +58,8 @@
   height: calc(100vh - 80px);
   width: calc(100% - var(--ms_sidebar-width));
   background-color: #F8F9FA;
-
 }
+
 /* HEADER MAIN */
 .ms_header-main {
   width: 100%;
