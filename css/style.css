@@ -63,9 +63,16 @@
 /* HEADER MAIN */
 .ms_header-main {
   width: 100%;
-  /* debug */
-  min-height: 100px;
-  background-color: blue;
+  color: white;
+  background-color: #1B72E8;
+}
+
+.ms_btn-header {
+  padding: .4rem .8rem;
+  border-radius: 1rem;
+  margin: .4rem;
+  background-color: #165BBA;
+  display: inline-block;
 }
 
 /* TABLE */

@@ -145,26 +145,64 @@
           <section id="ms_main-section">
             <!-- header main -->
             <header class="ms_header-main">
-              <div class="d-flex flex-column flex-md-row">
-
-                <div class="p-3">
+              <div class="d-flex flex-column flex-md-row p-2 justify-content-between">
+                
+                <!-- New Student -->
+                <div class="p-4 order-md-3">
                   <span class="text-white">Nuovo Studente</span>
-                  <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                  <button class="btn btn-outline-light mx-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                     <i class="fa-solid fa-plus"></i>
                   </button>
 
-                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas offcanvas-end text-black" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                     <div class="offcanvas-header">
                       <h5 id="offcanvasRightLabel">Offcanvas right</h5>
                       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                        ...
+                      lollo
                     </div>
                   </div>
                   
                 </div>
+                <!-- /New Student -->
 
+                <!-- nav boolean -->
+                <div class="p-3">
+                    <h3 class="fs-1 d-inline-block">Boolean</h3>
+                  <span class="ms_btn-header">Piano blaze</span>
+                  
+                  <ul class="list-unstyled d-flex align-items-center">
+                    <li>
+                      <span class="ms_btn-header">3 app</span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-angles-right"></i>
+                    </li>
+                    <li class="d-lg-none">
+                      <span class="ms_btn-header rounded-circle">
+                        <i class="fa-solid fa-plus"></i>
+                      </span>
+                    </li>
+                    <li class="d-none d-lg-inline-block">
+                      <span class="ms_btn-header">Boolean mobile app</span>
+                    </li>
+                    <li class="d-none d-lg-inline-block">
+                      <span class="ms_btn-header">Boolean web app</span>
+                    </li>
+                    <li class="d-none d-lg-inline-block">
+                      <span class="ms_btn-header">Boolean blog app</span>
+                    </li>
+                  </ul>
+                </div>
+                <!-- /nav boolean -->
+
+                <!-- Online student -->
+                <div class="p-4">
+                  <h5 class="fs-6">Studenti Online negli ultimi 30 minuti</h5>
+                  <p class="fs-4 fw-bold">125</p>
+                </div>
+                <!-- /Online Student -->
               </div>
             </header>
             <!-- /Header main -->
