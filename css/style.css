@@ -1,11 +1,18 @@
-/* UTILITIES */
-.ms_height-100 {
-  height: calc(100vh - 80px);
+/* ROOT */
+:root {
+  --ms_sidebar-width: 80px;
 }
+
+@media screen and (min-width:992px) {
+  :root {
+    --ms_sidebar-width: 180px;
+  }
+}
+
 /* BODY */
 .ms_wrapper {
   width: 100%;
-  height: calc(100vh - 80px);
+  height: 100vh;
 }
 
 /* HEADER */
@@ -36,30 +43,23 @@
 }
 
 /* MAIN */
-.ms_aside {
+.ms_sidebar {
   background-color: #051E34;
   background-image: url(../img/sidebar-bg.png);
   background-position: center;
   height: calc(100vh - 80px);
-  width: 90px;
-}
-
-@media screen and (min-width:992px) {
-  .ms_aside {
-    width: 180px;
-  }
+  width: var(--ms_sidebar-width);
+  overflow-y: hidden;
 }
 
 /* MAIN SECTION */
 #ms_main-section {
-  overflow-y: auto;
-  /* debug */
-  background-color: rgb(231, 148, 231);
+  overflow-y: auto;  
   height: calc(100vh - 80px);
-  flex-grow: 1;
-  border: 1px solid black;
-}
+  width: calc(100% - var(--ms_sidebar-width));
+  background-color: #F8F9FA;
 
+}
 /* HEADER MAIN */
 .ms_header-main {
   width: 100%;
