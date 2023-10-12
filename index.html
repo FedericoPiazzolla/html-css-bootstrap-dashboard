@@ -105,28 +105,35 @@
         <div class="d-flex">
           <!-- tool bar left -->
           <nav class="ms_sidebar">
-            <div class="container-fluid">
+            <div class="container-fluid h-100 d-flex flex-wrap">
               <ul
-                class="h-100 list-unstyled d-flex flex-column align-items-center py-4"
+                class=" w-100 list-unstyled d-flex flex-column align-items-center py-4"
               >
-                <li>
+                <li class="py-2">
                   <button type="button" class="btn btn-outline-light border-0">
                     <i class="fa-solid fa-house fa-lg"></i>
+                    <span class="px-2 d-none d-lg-inline-block">Home</span>
                   </button>
                 </li>
-                <li>
+                <li class="py-2">
                   <button type="button" class="btn btn-outline-light border-0">
                     <i class="fa-solid fa-chart-simple fa-lg"></i>
+                    <span class="px-2 d-none d-lg-inline-block">Stats</span>
                   </button>
                 </li>
-                <li>
+                <li class="py-2">
                   <button type="button" class="btn btn-outline-light border-0">
                     <i class="fa-solid fa-signal fa-lg"></i>
+                    <span class="px-2 d-none d-lg-inline-block">Signals</span>
                   </button>
                 </li>
-                <li class="">
+              </ul>
+
+              <ul class="w-100 list-unstyled d-flex flex-column align-items-center justify-content-end py-4">
+                <li>
                   <button type="button" class="btn btn-outline-light border-0">
                     <i class="fa-solid fa-gear fa-lg"></i>
+                    <span class="px-2 d-none d-lg-inline-block">Admin</span>
                   </button>
                 </li>
               </ul>
