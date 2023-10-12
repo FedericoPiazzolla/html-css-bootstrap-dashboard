@@ -64,8 +64,8 @@
 .ms_header-main {
   width: 100%;
   /* debug */
-  height: 100px;
-  background-color: lightblue;
+  min-height: 100px;
+  background-color: blue;
 }
 
 /* TABLE */
